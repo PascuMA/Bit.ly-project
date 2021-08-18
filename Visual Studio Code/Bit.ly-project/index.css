@@ -88,3 +88,7 @@ h3 {
 .show{
     display: block;
 }
+
+#invisible{
+    display: none;
+}

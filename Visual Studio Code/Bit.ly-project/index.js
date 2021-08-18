@@ -19,6 +19,9 @@ function convertTo(){
     if(!clicked){
         clicked = true;
         document.getElementById("text").innerHTML = link;
+        
+        const div = document.getElementById("invisible");
+        div.style.display = "block";
     }
 }
 
